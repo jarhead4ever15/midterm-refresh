@@ -1,7 +1,34 @@
 body {
-	 background: url("../img/bg.png");
+	background: url("../img/bg.png");
+	font-family: 'Open Sans', sans-serif;
 }
 
-p {
-	font-family: 'Jolly Lodger', cursive;
+
+/* NAVIGATION - ALL LINKS (Base Styling) */
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 20px 0 20px;
+}
+
+/* NAVIGATION - Link States */
+nav a:link,
+nav a:visited {
+	background: ;
+	padding: 20px 20px 20px 40px;
+}
+
+nav a:hover,
+nav a:active {
+	background: url;
+}
+
+/* Show first link on hover */
+#first a:hover {
+	background: url("../img/link-1.png") no-repeat left center;
+}
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/grid-bg.png") 
 }
