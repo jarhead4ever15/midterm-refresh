@@ -28,6 +28,28 @@ nav a:active {
 	background: url("../img/link-1.png") no-repeat left center;
 }
 
+/* Style Aside Image Round */
+section img,
+aside img {
+	border-radius: ;
+}
+
+/* First Image Border  inside Section*/
+section > img {
+	border-radius: 50px;
+}
+
+/* Leading Paragraph*/
+.alpha h3 + p,
+section img + p {
+	color: teal;
+}
+
+aside li ul > li {
+	background: red;
+}
+
+
 /* Helper Classes */
 .showgrid {
 	background: url("../img/grid-bg.png") 
